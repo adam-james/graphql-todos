@@ -7,7 +7,7 @@ import App from "./App";
 import * as serviceWorker from "./serviceWorker";
 
 const client = new ApolloClient({
-  uri: "https://api.graph.cool/simple/v1/cjygl22fm1po10109op2ymvax"
+  uri: "https://api.graph.cool/simple/v1/cjyh8isgl3dgc0179be7hnhx6"
 });
 
 ReactDOM.render(
