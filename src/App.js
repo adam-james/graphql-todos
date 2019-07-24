@@ -23,12 +23,14 @@ function App() {
 
           const { allTodoItems } = data;
 
+          if (allTodoItems.length < 1) return <p>No items.</p>;
+
           return (
-            <ul>
+            <ol>
               {allTodoItems.map(item => (
                 <li key={item.id}>{item.description}</li>
               ))}
-            </ul>
+            </ol>
           );
         }}
       </Query>
